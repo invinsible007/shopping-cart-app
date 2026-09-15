@@ -151,13 +151,13 @@
     </build>
     <distributionManagement>
         <repository>
-          <id>maven-releases</id>
-          <name>maven-releases</name>
+          <id>nexus</id>
+          <name>Nexus Releases</name>
           <url>http://100.63.173.126:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
-          <id>maven-snapshots</id>
-          <name>maven-snapshots</name>
+          <id>nexus</id>
+          <name>Nexus Snapshots</name>
           <url>http://100.63.173.126:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
